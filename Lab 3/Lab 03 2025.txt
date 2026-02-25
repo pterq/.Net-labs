@@ -1,0 +1,56 @@
+EF Core (projekty nazywamy Lab03_1_Core, Lab03_2_Core, ...)
+
+1. Getting Started 1 With EF Core (Model First) - Console (każdą encję definiujemy w osobnej klasie w katalogu Models)
+https://www.learnentityframeworkcore5.com/project-types/console
+
+-- Uzupełnienie do pkt.1 (do przejrzenia)
+-- 1a. Getting Started 2 With EF Core - Console (każdą encję definiujemy w osobnej klasie w katalogu Models)
+-- https://www.learnentityframeworkcore.com/walkthroughs/console-application
+
+2. DbContext in Entity Framework Core 
+https://www.entityframeworktutorial.net/efcore/entity-framework-core-dbcontext.aspx
+
+3. Migrations in Entity Framework Core
+https://www.entityframeworktutorial.net/efcore/entity-framework-core-migration.aspx
+
+4. Entity Framework Core: Saving Data
+https://www.entityframeworktutorial.net/efcore/saving-data-in-connected-scenario-in-ef-core.aspx
+
+5. Execute Raw SQL Queries in Entity Framework Core
+https://www.entityframeworktutorial.net/efcore/raw-sql-queries-in-ef-core.aspx
+
+6. EF Core Database First (każdą encję definiujemy w osobnej klasie w katalogu Model)
+https://www.learnentityframeworkcore.com/walkthroughs/existing-database
+
+7. Tworzymy nowy projekt (Lab03_APP_NET9)
+Napisać krótką aplikację, która połaczy się z SQL Server lokalnym (lub z plikiem) i po kolei wykona następujące czynności:
+
+Console.Write("Dropping and creating database 'SampleTestEFDB' ... ");
+
+A następnie w pętli mamy do wyboru (1,2,3,4,5):
+
+// INSERT example data with parameters (parametry podajemy z klawiatury)
+Console.WriteLine(" 1 - Inserting a new row into table...");
+// UPDATE example data with parameters (parametry podajemy z klawiatury) (1 paramter na co zmieniamy, 2 parametr co zmieniamy)
+Console.WriteLine(" 2 - Updating rows into table...");
+// DELETE example data with parameters (parametry podajemy z klawiatury)
+Console.WriteLine(" 3 - Deleting rows into table...");
+// READ data
+Console.WriteLine(" 4 - Reading data from table...");
+
+8. Wprowadzenie do programu EF Core (SQLite) (Lab03_APP_NET_SQLite)
+https://learn.microsoft.com/pl-pl/ef/core/get-started/overview/first-app?tabs=netcore-cli
+
+
+
+
+
+Microsoft.EntityFrameworkCore        8.0.x
+Microsoft.EntityFrameworkCore.SqlServer  8.0.x
+Microsoft.EntityFrameworkCore.Tools  8.0.x
+
+PM> 
+Install-Package Microsoft.EntityFrameworkCore
+Install-Package Microsoft.EntityFrameworkCore.SqlServer
+
+using Microsoft.EntityFrameworkCore;

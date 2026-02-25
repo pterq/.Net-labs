@@ -1,0 +1,14 @@
+D:\dotNet\dotNet lab 3\Lab03_2_Core\Lab03_2_Core\bin\Debug\net10.0\Lab03_2_Core.exe
+D:\dotNet\dotNet lab 3\Lab03_2_Core\Lab03_2_Core\bin\Debug\net10.0\Lab03_2_Core.deps.json
+D:\dotNet\dotNet lab 3\Lab03_2_Core\Lab03_2_Core\bin\Debug\net10.0\Lab03_2_Core.runtimeconfig.json
+D:\dotNet\dotNet lab 3\Lab03_2_Core\Lab03_2_Core\bin\Debug\net10.0\Lab03_2_Core.dll
+D:\dotNet\dotNet lab 3\Lab03_2_Core\Lab03_2_Core\bin\Debug\net10.0\Lab03_2_Core.pdb
+D:\dotNet\dotNet lab 3\Lab03_2_Core\Lab03_2_Core\obj\Debug\net10.0\Lab03_2_Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\dotNet\dotNet lab 3\Lab03_2_Core\Lab03_2_Core\obj\Debug\net10.0\Lab03_2_Core.AssemblyInfoInputs.cache
+D:\dotNet\dotNet lab 3\Lab03_2_Core\Lab03_2_Core\obj\Debug\net10.0\Lab03_2_Core.AssemblyInfo.cs
+D:\dotNet\dotNet lab 3\Lab03_2_Core\Lab03_2_Core\obj\Debug\net10.0\Lab03_2_Core.csproj.CoreCompileInputs.cache
+D:\dotNet\dotNet lab 3\Lab03_2_Core\Lab03_2_Core\obj\Debug\net10.0\Lab03_2_Core.dll
+D:\dotNet\dotNet lab 3\Lab03_2_Core\Lab03_2_Core\obj\Debug\net10.0\refint\Lab03_2_Core.dll
+D:\dotNet\dotNet lab 3\Lab03_2_Core\Lab03_2_Core\obj\Debug\net10.0\Lab03_2_Core.pdb
+D:\dotNet\dotNet lab 3\Lab03_2_Core\Lab03_2_Core\obj\Debug\net10.0\Lab03_2_Core.genruntimeconfig.cache
+D:\dotNet\dotNet lab 3\Lab03_2_Core\Lab03_2_Core\obj\Debug\net10.0\ref\Lab03_2_Core.dll
