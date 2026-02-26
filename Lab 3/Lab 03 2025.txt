@@ -62,6 +62,8 @@ Install-Package Microsoft.EntityFrameworkCore.Design
 Install-Package Microsoft.Extensions.Configuration
 Install-Package Microsoft.Extensions.Configuration.Json
 
+Install-Package System.Data.SqlClient
+
 using Microsoft.EntityFrameworkCore;
 
 
