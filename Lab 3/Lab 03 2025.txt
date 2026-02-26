@@ -56,7 +56,21 @@ PM>
 Install-Package Microsoft.EntityFrameworkCore
 Install-Package Microsoft.EntityFrameworkCore.SqlServer
 
+Install-Package Microsoft.EntityFrameworkCore.Tools
+Install-Package Microsoft.EntityFrameworkCore.Design
+
 Install-Package Microsoft.Extensions.Configuration
 Install-Package Microsoft.Extensions.Configuration.Json
 
 using Microsoft.EntityFrameworkCore;
+
+
+git rm -r --cached "Lab 3/Lab03_1_Core/Lab03_1_Core/bin"
+git rm -r --cached "Lab 3/Lab03_1_Core/Lab03_1_Core/obj"
+
+git rm -r --cached "Lab 3/Lab03_2_Core/Lab03_2_Core/bin"
+git rm -r --cached "Lab 3/Lab03_2_Core/Lab03_2_Core/obj"
+
+git commit -m "Remove bin from tracking 2"
+
+git revert origin/main~1..origin/main
