@@ -74,3 +74,5 @@ git rm -r --cached "Lab 3/Lab03_2_Core/Lab03_2_Core/obj"
 git commit -m "Remove bin from tracking 2"
 
 git revert origin/main~1..origin/main
+
+
