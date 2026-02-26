@@ -11,41 +11,41 @@ public class Program
             context.Database.EnsureCreated();
 
             var authors = new List<Author>
-        {
-            new Author
             {
-                FirstName ="Carson",
-                LastName ="Alexander",
-                BirthDate = DateTime.Parse("1985-09-01"),
-                Books = new List<Book>()
+                new Author
                 {
-                    new Book { Title = "Introduction to Machine Learning"},
-                    new Book { Title = "Advanced Topics on Machine Learning"},
-                    new Book { Title = "Introduction to Computing"}
-                }
-            },
-            new Author
-            {
-                FirstName ="Meredith",
-                LastName ="Alonso",
-                BirthDate = DateTime.Parse("1970-09-01"),
-                Books = new List<Book>()
+                    FirstName ="Carson",
+                    LastName ="Alexander",
+                    BirthDate = DateTime.Parse("1985-09-01"),
+                    Books = new List<Book>()
+                    {
+                        new Book { Title = "Introduction to Machine Learning"},
+                        new Book { Title = "Advanced Topics on Machine Learning"},
+                        new Book { Title = "Introduction to Computing"}
+                    }
+                },
+                new Author
                 {
-                    new Book { Title = "Introduction to Microeconomics"}
-                }
-            },
-            new Author
-            {
-                FirstName ="Arturo",
-                LastName ="Anand",
-                BirthDate = DateTime.Parse("1963-09-01"),
-                Books = new List<Book>()
+                    FirstName ="Meredith",
+                    LastName ="Alonso",
+                    BirthDate = DateTime.Parse("1970-09-01"),
+                    Books = new List<Book>()
+                    {
+                        new Book { Title = "Introduction to Microeconomics"}
+                    }
+                },
+                new Author
                 {
-                    new Book { Title = "Calculus I"},
-                    new Book { Title = "Calculus II"}
+                    FirstName ="Arturo",
+                    LastName ="Anand",
+                    BirthDate = DateTime.Parse("1963-09-01"),
+                    Books = new List<Book>()
+                    {
+                        new Book { Title = "Calculus I"},
+                        new Book { Title = "Calculus II"}
+                    }
                 }
-            }
-        };
+            };
 
             context.Authors.AddRange(authors);
             context.SaveChanges();
@@ -66,6 +66,7 @@ public class Program
                     Console.WriteLine("\t" + book.Title);
                 }
             }
+            //context.Database.EnsureDeleted();
         }
 
         Console.WriteLine("Naciśnij Enter, aby zakończyć...");

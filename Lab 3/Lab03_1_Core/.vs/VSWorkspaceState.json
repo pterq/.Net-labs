@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Lab03_1_Core"
+    "\\Lab03_1_Core",
+    "\\Lab03_1_Core\\Models"
   ],
-  "SelectedNode": "\\Lab03_1_Core\\BookStore.cs",
+  "SelectedNode": "\\Lab03_1_Core\\Program.cs",
   "PreviewInSolutionExplorer": false
 }

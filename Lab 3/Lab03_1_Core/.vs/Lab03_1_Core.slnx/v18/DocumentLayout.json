@@ -1,14 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\dotNet\\dotNet lab 3\\Lab03_1_Core\\",
+  "WorkspaceRootPath": "D:\\Projekty-github\\.Net-labs\\Lab 3\\Lab03_1_Core\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\dotNet\\dotNet lab 3\\Lab03_1_Core\\Lab03_1_Core\\BookStore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projekty-github\\.Net-labs\\Lab 3\\Lab03_1_Core\\Lab03_1_Core\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Lab03_1_Core\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projekty-github\\.Net-labs\\Lab 3\\Lab03_1_Core\\Lab03_1_Core\\BookStore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Lab03_1_Core\\BookStore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\dotNet\\dotNet lab 3\\Lab03_1_Core\\Lab03_1_Core\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Lab03_1_Core\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projekty-github\\.Net-labs\\Lab 3\\Lab03_1_Core\\Lab03_1_Core\\Models\\Author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Lab03_1_Core\\Models\\Author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,15 +22,28 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "Author.cs",
+              "DocumentMoniker": "D:\\Projekty-github\\.Net-labs\\Lab 3\\Lab03_1_Core\\Lab03_1_Core\\Models\\Author.cs",
+              "RelativeDocumentMoniker": "Lab03_1_Core\\Models\\Author.cs",
+              "ToolTip": "D:\\Projekty-github\\.Net-labs\\Lab 3\\Lab03_1_Core\\Lab03_1_Core\\Models\\Author.cs",
+              "RelativeToolTip": "Lab03_1_Core\\Models\\Author.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T20:29:00.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "BookStore.cs",
-              "DocumentMoniker": "D:\\dotNet\\dotNet lab 3\\Lab03_1_Core\\Lab03_1_Core\\BookStore.cs",
+              "DocumentMoniker": "D:\\Projekty-github\\.Net-labs\\Lab 3\\Lab03_1_Core\\Lab03_1_Core\\BookStore.cs",
               "RelativeDocumentMoniker": "Lab03_1_Core\\BookStore.cs",
-              "ToolTip": "D:\\dotNet\\dotNet lab 3\\Lab03_1_Core\\Lab03_1_Core\\BookStore.cs",
+              "ToolTip": "D:\\Projekty-github\\.Net-labs\\Lab 3\\Lab03_1_Core\\Lab03_1_Core\\BookStore.cs",
               "RelativeToolTip": "Lab03_1_Core\\BookStore.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -35,15 +52,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\dotNet\\dotNet lab 3\\Lab03_1_Core\\Lab03_1_Core\\Program.cs",
+              "DocumentMoniker": "D:\\Projekty-github\\.Net-labs\\Lab 3\\Lab03_1_Core\\Lab03_1_Core\\Program.cs",
               "RelativeDocumentMoniker": "Lab03_1_Core\\Program.cs",
-              "ToolTip": "D:\\dotNet\\dotNet lab 3\\Lab03_1_Core\\Lab03_1_Core\\Program.cs",
+              "ToolTip": "D:\\Projekty-github\\.Net-labs\\Lab 3\\Lab03_1_Core\\Lab03_1_Core\\Program.cs",
               "RelativeToolTip": "Lab03_1_Core\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAEEAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-23T23:34:09.826Z"
+              "WhenOpened": "2026-02-23T23:34:09.826Z",
+              "EditorCaption": ""
             }
           ]
         }

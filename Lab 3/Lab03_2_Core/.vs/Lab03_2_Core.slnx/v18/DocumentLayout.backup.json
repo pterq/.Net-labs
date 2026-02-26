@@ -1,10 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\dotNet\\dotNet lab 3\\Lab03_2_Core\\",
+  "WorkspaceRootPath": "D:\\Projekty-github\\.Net-labs\\Lab 3\\Lab03_2_Core\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B846D90E-818D-40B1-B001-EC0D32F57C85}|Lab03_2_Core\\Lab03_2_Core.csproj|d:\\dotnet\\dotnet lab 3\\lab03_2_core\\lab03_2_core\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B846D90E-818D-40B1-B001-EC0D32F57C85}|Lab03_2_Core\\Lab03_2_Core.csproj|solutionrelative:lab03_2_core\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{38EDBBD8-ABB3-A2E4-0C16-235E93ABF7A6}|Lab03_2_Core\\Lab03_2_Core.csproj|d:\\projekty-github\\.net-labs\\lab 3\\lab03_2_core\\lab03_2_core\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38EDBBD8-ABB3-A2E4-0C16-235E93ABF7A6}|Lab03_2_Core\\Lab03_2_Core.csproj|solutionrelative:lab03_2_core\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38EDBBD8-ABB3-A2E4-0C16-235E93ABF7A6}|Lab03_2_Core\\Lab03_2_Core.csproj|d:\\projekty-github\\.net-labs\\lab 3\\lab03_2_core\\lab03_2_core\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{38EDBBD8-ABB3-A2E4-0C16-235E93ABF7A6}|Lab03_2_Core\\Lab03_2_Core.csproj|solutionrelative:lab03_2_core\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38EDBBD8-ABB3-A2E4-0C16-235E93ABF7A6}|Lab03_2_Core\\Lab03_2_Core.csproj|d:\\projekty-github\\.net-labs\\lab 3\\lab03_2_core\\lab03_2_core\\schooldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38EDBBD8-ABB3-A2E4-0C16-235E93ABF7A6}|Lab03_2_Core\\Lab03_2_Core.csproj|solutionrelative:lab03_2_core\\schooldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38EDBBD8-ABB3-A2E4-0C16-235E93ABF7A6}|Lab03_2_Core\\Lab03_2_Core.csproj|d:\\projekty-github\\.net-labs\\lab 3\\lab03_2_core\\lab03_2_core\\jsonschooldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38EDBBD8-ABB3-A2E4-0C16-235E93ABF7A6}|Lab03_2_Core\\Lab03_2_Core.csproj|solutionrelative:lab03_2_core\\jsonschooldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,17 +26,56 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Projekty-github\\.Net-labs\\Lab 3\\Lab03_2_Core\\Lab03_2_Core\\appsettings.json",
+              "RelativeDocumentMoniker": "Lab03_2_Core\\appsettings.json",
+              "ToolTip": "D:\\Projekty-github\\.Net-labs\\Lab 3\\Lab03_2_Core\\Lab03_2_Core\\appsettings.json",
+              "RelativeToolTip": "Lab03_2_Core\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAB1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-26T12:18:46.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SchoolDbContext.cs",
+              "DocumentMoniker": "D:\\Projekty-github\\.Net-labs\\Lab 3\\Lab03_2_Core\\Lab03_2_Core\\SchoolDbContext.cs",
+              "RelativeDocumentMoniker": "Lab03_2_Core\\SchoolDbContext.cs",
+              "ToolTip": "D:\\Projekty-github\\.Net-labs\\Lab 3\\Lab03_2_Core\\Lab03_2_Core\\SchoolDbContext.cs",
+              "RelativeToolTip": "Lab03_2_Core\\SchoolDbContext.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAYwBIAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T21:18:29.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "JsonSchoolDbContext.cs",
+              "DocumentMoniker": "D:\\Projekty-github\\.Net-labs\\Lab 3\\Lab03_2_Core\\Lab03_2_Core\\JsonSchoolDbContext.cs",
+              "RelativeDocumentMoniker": "Lab03_2_Core\\JsonSchoolDbContext.cs",
+              "ToolTip": "D:\\Projekty-github\\.Net-labs\\Lab 3\\Lab03_2_Core\\Lab03_2_Core\\JsonSchoolDbContext.cs",
+              "RelativeToolTip": "Lab03_2_Core\\JsonSchoolDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T12:21:30.657Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\dotNet\\dotNet lab 3\\Lab03_2_Core\\Lab03_2_Core\\Program.cs",
+              "DocumentMoniker": "D:\\Projekty-github\\.Net-labs\\Lab 3\\Lab03_2_Core\\Lab03_2_Core\\Program.cs",
               "RelativeDocumentMoniker": "Lab03_2_Core\\Program.cs",
-              "ToolTip": "D:\\dotNet\\dotNet lab 3\\Lab03_2_Core\\Lab03_2_Core\\Program.cs",
+              "ToolTip": "D:\\Projekty-github\\.Net-labs\\Lab 3\\Lab03_2_Core\\Lab03_2_Core\\Program.cs",
               "RelativeToolTip": "Lab03_2_Core\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-24T21:14:38.716Z",
               "EditorCaption": ""

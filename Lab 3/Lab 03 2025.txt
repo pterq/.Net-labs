@@ -44,6 +44,9 @@ https://learn.microsoft.com/pl-pl/ef/core/get-started/overview/first-app?tabs=ne
 
 
 
+Pakujemy całe rozwiązanie (solution) z projektami bez katalogów bin i obj dla każdego z projektów i wysyłamy do WIKAMPA jako rozwiązanie zadań w postaci np. jednego pliku zip.
+
+
 
 Microsoft.EntityFrameworkCore        8.0.x
 Microsoft.EntityFrameworkCore.SqlServer  8.0.x
@@ -52,5 +55,8 @@ Microsoft.EntityFrameworkCore.Tools  8.0.x
 PM> 
 Install-Package Microsoft.EntityFrameworkCore
 Install-Package Microsoft.EntityFrameworkCore.SqlServer
+
+Install-Package Microsoft.Extensions.Configuration
+Install-Package Microsoft.Extensions.Configuration.Json
 
 using Microsoft.EntityFrameworkCore;
