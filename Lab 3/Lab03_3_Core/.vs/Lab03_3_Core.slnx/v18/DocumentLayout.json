@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
@@ -46,8 +46,7 @@
               "RelativeToolTip": "Lab03_3_Core\\Models\\Grade.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-26T17:55:55.171Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-26T17:55:55.171Z"
             },
             {
               "$type": "Document",
@@ -70,7 +69,19 @@
               "RelativeToolTip": "Lab03_3_Core\\Models\\Student.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAswBcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-26T17:06:42.776Z",
+              "WhenOpened": "2026-02-26T17:06:42.776Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Projekty-github\\.Net-labs\\Lab 3\\Lab03_3_Core\\Lab03_3_Core\\Program.cs",
+              "RelativeDocumentMoniker": "Lab03_3_Core\\Program.cs",
+              "ToolTip": "D:\\Projekty-github\\.Net-labs\\Lab 3\\Lab03_3_Core\\Lab03_3_Core\\Program.cs",
+              "RelativeToolTip": "Lab03_3_Core\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T12:42:53.078Z",
               "EditorCaption": ""
             },
             {
@@ -95,21 +106,7 @@
               "RelativeToolTip": "Lab03_3_Core\\SchoolDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-26T13:01:12.842Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Projekty-github\\.Net-labs\\Lab 3\\Lab03_3_Core\\Lab03_3_Core\\Program.cs",
-              "RelativeDocumentMoniker": "Lab03_3_Core\\Program.cs",
-              "ToolTip": "D:\\Projekty-github\\.Net-labs\\Lab 3\\Lab03_3_Core\\Lab03_3_Core\\Program.cs",
-              "RelativeToolTip": "Lab03_3_Core\\Program.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAAEMAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-26T12:42:53.078Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-26T13:01:12.842Z"
             }
           ]
         }

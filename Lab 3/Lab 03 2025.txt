@@ -62,7 +62,7 @@ Install-Package Microsoft.EntityFrameworkCore.Design
 Install-Package Microsoft.Extensions.Configuration
 Install-Package Microsoft.Extensions.Configuration.Json
 
-Install-Package System.Data.SqlClient
+Install-Package Microsoft.EntityFrameworkCore.Sqlite
 
 using Microsoft.EntityFrameworkCore;
 
