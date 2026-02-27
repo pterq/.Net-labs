@@ -12,4 +12,3 @@ Add search
 Add a new field
 Add validation
 Examine Details and Delete
-

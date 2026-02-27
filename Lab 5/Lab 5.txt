@@ -1,15 +1,17 @@
 Wykonany projekt z samouczka pakujemy i dodajemy całe rozwiązanie do WIKAMP'a (bez bin, obj i bibliotek)
 
-1. Get started with ASP.NET Core MVC
-https://learn.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app/start-mvc?view=aspnetcore-9.0&tabs=visual-studio
+1. ASP.NET Core MVC with EF Core - tutorial series ( MVC - CONTOSO Univeristy)
 
-Add a controller
-Add a view
-Add a model
-Work with database
-Controller actions and views
-Add search
-Add a new field
-Add validation
-Examine Details and Delete
+https://learn.microsoft.com/en-us/aspnet/core/data/ef-mvc/?view=aspnetcore-9.0
 
+Overview
+Get started
+Create, Read, Update, and Delete
+Sort, filter, page, and group
+Migrations
+Create a complex data model
+Read related data
+Update related data
+Handle concurrency conflicts
+Inheritance
+Advanced topics

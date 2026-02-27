@@ -1,0 +1,56 @@
+Wykonany projekt z samouczka pakujemy i dodajemy całe rozwiązanie do WIKAMP'a (bez bin, obj i bibliotek)
+
+1. ASP.NET Core MVC with EF Core - tutorial series ( MVC - CONTOSO Univeristy)
+
+https://learn.microsoft.com/en-us/aspnet/core/data/ef-mvc/?view=aspnetcore-9.0
+
+Overview
+Get started
+Create, Read, Update, and Delete
+Sort, filter, page, and group
+Migrations
+Create a complex data model
+Read related data
+Update related data
+Handle concurrency conflicts
+Inheritance
+Advanced topics
+
+Projekt:
+Pakujemy całe rozwiązanie (solution) z projektem bez katalogów bin i obj dla projektu 
+i wysyłamy na WIKAMPA jako rozwiązanie w postaci jednego pliku zip do punktu Projekty końcowe ( z labów 3, 4, 5 tak samo).
+
+Projekt końcowy ma zawierać:
+- krótkie sprawozdania ze strukturą bazy danych (Database diagram w SSMS)
+(na pierwszej stronie sprawozdania wstawiamy nazwa przedmiotu, dane osób realizujących dany projekt i na jaką ocenę),
+- kod z wymaganymi na daną ocenę funkcjonalnościami,
+- link do pliku na OneDrive z krótkim filmem z dźwiękiem z przedstawieniem funkcjonalności danej aplikacji, którą Państwo zaimplementowali (film udostępnimy dla prowadzącego na OneDrive) 
+
+
+
+
+
+W ramach projektu końcowego modyfikujemy aplikację CONTOSO University (Lab05) dodając odpowiednie funkcjonalności
+- ASP.NET Core MVC with EF Core - tutorial series (CONTOSO University) - cały.
+String połączniowy do bazy danych w serwisie SQL Server (bazę stawiamy na lokalnym serwisie SQL Server) 
+o nazwie np. CONTOSO powinien mieć postać:
+"Data Source=.;Initial Catalog=CONTOSO;Integrated Security=True;Encrypt=False"
+
+Na ocenę 3.0 - wysyłamy Lab03, Lab04, Lab05 oraz Projekt końcowe (tutaj wstawiamy projekt z Lab05 + sprawozdanie z Lab05)
+Na ocenę 3.5 - jak wyżej + aplikacja MVC Movie (ASP.NET Core MVC) z tutoriala (Lab05) + photo students.
+W ramach projektu przykładowego dokładamy do bazy danych pole photo do tabeli students 
+oraz realizujemy wyświetlanie zdjęcia w części details i dodawanie pliku zdjęcia do bazy danych.
+Na ocenę 4.0 - jak wyżej + dodana powinna być Autoryzacja (przykłady Lab06)
+Na ocenę 4.5 - jak wyżej + account confirmation (przykłady Lab06)
+Na ocenę 5.0 - jak wyżej + change password i password recovery (przykłady Lab06)
+
+Pakujemy całe rozwiązanie (solution) z projektem bez katalogów bin i obj dla projektu 
+i wysyłamy na WIKAMPA jako rozwiązanie w postaci jednego pliku zip do punktu Projekty końcowe ( z labów 3, 4, 5 tak samo).
+Projekt końcowy ma zawierać:
+- krótkie sprawozdania ze strukturą bazy danych (Database diagram w SSMS)
+(na pierwszej stronie sprawozdania wstawiamy nazwa przedmiotu, dane osób realizujących dany projekt i na jaką ocenę),
+- kod z wymaganymi na daną ocenę funkcjonalnościami,
+- link do pliku na OneDrive z krótkim filmem z dźwiękiem z przedstawieniem funkcjonalności danej aplikacji, którą Państwo zaimplementowali (film udostępnimy dla prowadzącego na OneDrive) 
+
+Grupy, które zaprezentowały projekt na zajęciach nie muszą wysyłać filmu.
+Jeśli w grupie są dwie osoby, to każda z osób wgrywa to samo do WIKAMPA 
