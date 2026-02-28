@@ -19,8 +19,25 @@ Advanced topics
 
 Drop-Database
 Remove-Migration -Force
-Add-Migration Inheritance
+Add-Migration InheritanceCorrected
 Update-Database
 
+Get-Migration
 
 
+
+ID LastName FirstName HireDate EnrollmentDate Discriminator
+1	Abercrombie	Kim	11.03.1995 00:00:00	NULL	Instructor
+2	Fakhouri	Fadi	06.07.2002 00:00:00	NULL	Instructor
+3	Harui	Roger	01.07.1998 00:00:00	NULL	Instructor
+4	Kapoor	Candace	15.01.2001 00:00:00	NULL	Instructor
+5	Zheng	Roger	12.02.2004 00:00:00	NULL	Instructor
+6	Alexander	Carson	NULL	01.09.2010 00:00:00	Student
+7	Alonso	Meredith	NULL	01.09.2012 00:00:00	Student
+8	Anand	Arturo	NULL	01.09.2013 00:00:00	Student
+9	Barzdukas	Gytis	NULL	01.09.2012 00:00:00	Student
+10	Li	Yan	NULL	01.09.2012 00:00:00	Student
+11	Justice	Peggy	NULL	01.09.2011 00:00:00	Student
+12	Norman	Laura	NULL	01.09.2013 00:00:00	Student
+13	Olivetto	Nino	NULL	01.09.2005 00:00:00	Student
+NULL	NULL	NULL	NULL	NULL	NULL

@@ -1,12 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using ContosoUniversity.Data;
+using ContosoUniversity.Models;
+using ContosoUniversity.Models.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using ContosoUniversity.Data;
-using ContosoUniversity.Models;
+using System;
+using System.Collections.Generic;
+using System.Data.Common;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace ContosoUniversity.Controllers
 {
@@ -22,8 +24,30 @@ namespace ContosoUniversity.Controllers
         // GET: Departments
         public async Task<IActionResult> Index()
         {
-            var schoolContext = _context.Departments.Include(d => d.Administrator);
-            return View(await schoolContext.ToListAsync());
+            string query = @"
+                    SELECT 
+                        d.DepartmentID,
+                        d.Name,
+                        d.Budget,
+                        d.StartDate,
+                        d.InstructorID,
+                        p.ID AS AdministratorID,
+                        -- Obsługa NULL dla AdministratorFullName
+                        CASE 
+                            WHEN p.LastName IS NOT NULL AND p.FirstName IS NOT NULL 
+                            THEN p.LastName + ', ' + p.FirstName 
+                            ELSE NULL 
+                        END AS AdministratorFullName,
+                        p.HireDate AS AdministratorHireDate
+                    FROM Department d
+                    LEFT JOIN Person p ON d.InstructorID = p.ID AND p.Discriminator = 'Instructor'
+                    ORDER BY d.Name";
+
+            var departmentViewModels = await _context.Database
+                .SqlQueryRaw<DepartmentViewModel>(query)
+                .ToListAsync();
+
+            return View(departmentViewModels);
         }
 
         // GET: Departments/Details/5
@@ -34,10 +58,12 @@ namespace ContosoUniversity.Controllers
                 return NotFound();
             }
 
+            string query = "SELECT * FROM Department WHERE DepartmentID = {0}";
             var department = await _context.Departments
+                .FromSqlRaw(query, id)
                 .Include(d => d.Administrator)
                 .AsNoTracking()
-                .FirstOrDefaultAsync(m => m.DepartmentID == id);
+                .FirstOrDefaultAsync();
 
             if (department == null)
             {
@@ -57,8 +83,10 @@ namespace ContosoUniversity.Controllers
         // POST: Departments/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("DepartmentID,Name,Budget,StartDate,InstructorID,RowVersion")] Department department)
+        public async Task<IActionResult> Create([Bind("DepartmentID,Name,Budget,StartDate,InstructorID")] Department department)
         {
+            ModelState.Remove("RowVersion");
+
             if (ModelState.IsValid)
             {
                 _context.Add(department);
@@ -76,8 +104,6 @@ namespace ContosoUniversity.Controllers
             {
                 return NotFound();
             }
-
-            //var department = await _context.Departments.FindAsync(id);
 
             var department = await _context.Departments
                 .Include(d => d.Administrator)

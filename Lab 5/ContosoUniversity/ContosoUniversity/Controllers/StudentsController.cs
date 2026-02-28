@@ -20,6 +20,7 @@ namespace ContosoUniversity.Controllers
         }
 
         // GET: Students
+        // GET: Students
         public async Task<IActionResult> Index(
             string sortOrder,
             string currentFilter,
@@ -40,13 +41,20 @@ namespace ContosoUniversity.Controllers
             }
 
             ViewData["CurrentFilter"] = searchString;
+
+            // Poprawione: używamy Students (właściwość zdefiniowana w SchoolContext)
             var students = from s in _context.Students
                            select s;
+
+            // Lub alternatywnie (jeśli wolisz jawną składnię):
+            // var students = _context.Students.AsQueryable();
+
             if (!String.IsNullOrEmpty(searchString))
             {
                 students = students.Where(s => s.LastName.Contains(searchString)
-                                       || s.FirstMidName.Contains(searchString));
+                                            || s.FirstMidName.Contains(searchString));
             }
+
             switch (sortOrder)
             {
                 case "name_desc":
@@ -58,13 +66,19 @@ namespace ContosoUniversity.Controllers
                 case "date_desc":
                     students = students.OrderByDescending(s => s.EnrollmentDate);
                     break;
-                default:
+                default: // sortowanie po nazwisku rosnąco
                     students = students.OrderBy(s => s.LastName);
                     break;
             }
 
             int pageSize = 3;
-            return View(await PaginatedList<Student>.CreateAsync(students.AsNoTracking(), pageNumber ?? 1, pageSize));
+
+            // Poprawione: używamy students (IQueryable<Student>), a nie _context.Students
+            return View(await PaginatedList<Student>.CreateAsync(
+                students.AsNoTracking(),
+                pageNumber ?? 1,
+                pageSize
+            ));
         }
 
         // GET: Students/Details/5
@@ -131,7 +145,7 @@ namespace ContosoUniversity.Controllers
                 return NotFound();
             }
 
-            var student = await _context.Students.FindAsync(id);
+            var student = await _context.People.FirstOrDefaultAsync(p => p.ID == id);
             if (student == null)
             {
                 return NotFound();
@@ -208,7 +222,7 @@ namespace ContosoUniversity.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var student = await _context.Students.FindAsync(id);
+            var student = await _context.People.FirstOrDefaultAsync(p => p.ID == id);
             if (student == null)
             {
                 return RedirectToAction(nameof(Index));
@@ -216,7 +230,7 @@ namespace ContosoUniversity.Controllers
 
             try
             {
-                _context.Students.Remove(student);
+                _context.People.Remove(student);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }

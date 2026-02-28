@@ -331,14 +331,24 @@ namespace ContosoUniversity.Controllers
         {
             Instructor instructor = await _context.Instructors
                 .Include(i => i.CourseAssignments)
-                .SingleAsync(i => i.ID == id);
+                .FirstOrDefaultAsync(i => i.ID == id);
+
+            if (instructor == null)
+            {
+                return NotFound();
+            }
 
             var departments = await _context.Departments
                 .Where(d => d.InstructorID == id)
                 .ToListAsync();
-            departments.ForEach(d => d.InstructorID = null);
 
-            _context.Instructors.Remove(instructor);
+            foreach (var department in departments)
+            {
+                department.InstructorID = null;
+            }
+
+            // Alternatywna metoda usuwania
+            _context.Entry(instructor).State = EntityState.Deleted;
 
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
