@@ -18,6 +18,9 @@ Advanced topics
 
 
 Drop-Database
-Add-Migration InitialCreate
+Remove-Migration -Force
+Add-Migration Inheritance
 Update-Database
+
+
 
