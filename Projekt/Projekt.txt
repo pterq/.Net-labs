@@ -23,7 +23,9 @@ i wysyłamy na WIKAMPA jako rozwiązanie w postaci jednego pliku zip do punktu P
 Projekt końcowy ma zawierać: <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 - krótkie sprawozdania ze strukturą bazy danych (Database diagram w SSMS)
 (na pierwszej stronie sprawozdania wstawiamy nazwa przedmiotu, dane osób realizujących dany projekt i na jaką ocenę),
+
 - kod z wymaganymi na daną ocenę funkcjonalnościami,
+
 - link do pliku na OneDrive z krótkim filmem z dźwiękiem z przedstawieniem funkcjonalności danej aplikacji, którą Państwo zaimplementowali (film udostępnimy dla prowadzącego na OneDrive) 
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
@@ -37,6 +39,7 @@ o nazwie np. CONTOSO powinien mieć postać:
 "Data Source=.;Initial Catalog=CONTOSO;Integrated Security=True;Encrypt=False"
 
 Na ocenę 3.0 - wysyłamy Lab03, Lab04, Lab05 oraz Projekt końcowe (tutaj wstawiamy projekt z Lab05 + sprawozdanie z Lab05)
+
 Na ocenę 3.5 - jak wyżej + aplikacja MVC Movie (ASP.NET Core MVC) z tutoriala (Lab05) + photo students.
 W ramach projektu przykładowego dokładamy do bazy danych pole photo do tabeli students 
 oraz realizujemy wyświetlanie zdjęcia w części details i dodawanie pliku zdjęcia do bazy danych.
@@ -54,3 +57,13 @@ Projekt końcowy ma zawierać:
 
 Grupy, które zaprezentowały projekt na zajęciach nie muszą wysyłać filmu.
 Jeśli w grupie są dwie osoby, to każda z osób wgrywa to samo do WIKAMPA 
+
+
+docker run -e "ACCEPT_EULA=Y" -e "MSSQL_SA_PASSWORD=TwojeSilneHas!o123" -p 1433:1433 --name sqlserver -d mcr.microsoft.com/mssql/server:2022-latest
+Login: sa
+TwojeSilneHas!o123
+
+Server=localhost;Database=master;Trusted_Connection=True;
+
+
+https://tulodz-my.sharepoint.com/:v:/g/personal/229583_edu_p_lodz_pl/IQBGhDKf4j67R4A6lWWxfsAuATDYfQfxACfMzAKC2wG5OXQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=OSwPLT

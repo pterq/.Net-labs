@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\Projekty-github\\.Net-labs\\Lab 5\\ContosoUniversity\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{92E87CF7-7CE5-C9F1-403D-7EEB0AD57AB9}|ContosoUniversity\\ContosoUniversity.csproj|d:\\projekty-github\\.net-labs\\lab 5\\contosouniversity\\contosouniversity\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{92E87CF7-7CE5-C9F1-403D-7EEB0AD57AB9}|ContosoUniversity\\ContosoUniversity.csproj|solutionrelative:contosouniversity\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{92E87CF7-7CE5-C9F1-403D-7EEB0AD57AB9}|ContosoUniversity\\ContosoUniversity.csproj|d:\\projekty-github\\.net-labs\\lab 5\\contosouniversity\\contosouniversity\\data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{92E87CF7-7CE5-C9F1-403D-7EEB0AD57AB9}|ContosoUniversity\\ContosoUniversity.csproj|solutionrelative:contosouniversity\\data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -34,11 +38,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Projekty-github\\.Net-labs\\Lab 5\\ContosoUniversity\\ContosoUniversity\\appsettings.json",
+              "RelativeDocumentMoniker": "ContosoUniversity\\appsettings.json",
+              "ToolTip": "D:\\Projekty-github\\.Net-labs\\Lab 5\\ContosoUniversity\\ContosoUniversity\\appsettings.json",
+              "RelativeToolTip": "ContosoUniversity\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-28T10:19:34.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Projekty-github\\.Net-labs\\Lab 5\\ContosoUniversity\\ContosoUniversity\\Program.cs",
               "RelativeDocumentMoniker": "ContosoUniversity\\Program.cs",
@@ -51,20 +68,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "DbInitializer.cs",
               "DocumentMoniker": "D:\\Projekty-github\\.Net-labs\\Lab 5\\ContosoUniversity\\ContosoUniversity\\Data\\DbInitializer.cs",
               "RelativeDocumentMoniker": "ContosoUniversity\\Data\\DbInitializer.cs",
               "ToolTip": "D:\\Projekty-github\\.Net-labs\\Lab 5\\ContosoUniversity\\ContosoUniversity\\Data\\DbInitializer.cs",
               "RelativeToolTip": "ContosoUniversity\\Data\\DbInitializer.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAQwD8AAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-28T10:15:56.511Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "D:\\Projekty-github\\.Net-labs\\Lab 5\\ContosoUniversity\\ContosoUniversity\\Views\\Departments\\Delete.cshtml",
               "RelativeDocumentMoniker": "ContosoUniversity\\Views\\Departments\\Delete.cshtml",
@@ -77,7 +94,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "D:\\Projekty-github\\.Net-labs\\Lab 5\\ContosoUniversity\\ContosoUniversity\\Views\\Departments\\Edit.cshtml",
               "RelativeDocumentMoniker": "ContosoUniversity\\Views\\Departments\\Edit.cshtml",
@@ -90,7 +107,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "DepartmentsController.cs",
               "DocumentMoniker": "D:\\Projekty-github\\.Net-labs\\Lab 5\\ContosoUniversity\\ContosoUniversity\\Controllers\\DepartmentsController.cs",
               "RelativeDocumentMoniker": "ContosoUniversity\\Controllers\\DepartmentsController.cs",
@@ -103,7 +120,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "SchoolContext.cs",
               "DocumentMoniker": "D:\\Projekty-github\\.Net-labs\\Lab 5\\ContosoUniversity\\ContosoUniversity\\Data\\SchoolContext.cs",
               "RelativeDocumentMoniker": "ContosoUniversity\\Data\\SchoolContext.cs",
