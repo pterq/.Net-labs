@@ -20,12 +20,12 @@ Projekt:
 Pakujemy całe rozwiązanie (solution) z projektem bez katalogów bin i obj dla projektu 
 i wysyłamy na WIKAMPA jako rozwiązanie w postaci jednego pliku zip do punktu Projekty końcowe ( z labów 3, 4, 5 tak samo).
 
-Projekt końcowy ma zawierać:
+Projekt końcowy ma zawierać: <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 - krótkie sprawozdania ze strukturą bazy danych (Database diagram w SSMS)
 (na pierwszej stronie sprawozdania wstawiamy nazwa przedmiotu, dane osób realizujących dany projekt i na jaką ocenę),
 - kod z wymaganymi na daną ocenę funkcjonalnościami,
 - link do pliku na OneDrive z krótkim filmem z dźwiękiem z przedstawieniem funkcjonalności danej aplikacji, którą Państwo zaimplementowali (film udostępnimy dla prowadzącego na OneDrive) 
-
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 
 
